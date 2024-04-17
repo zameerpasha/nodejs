@@ -5,9 +5,8 @@ build:
     pre-build:
       - n 14.18.3
     build:      
-      - <<build_command>>
+      - npm run build
 run: 
-  command: <<start_command>>
+  command: npm run start
   network:
-    port: <<port>>
-    env: APP_PORT
+   
